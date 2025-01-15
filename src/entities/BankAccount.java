@@ -18,7 +18,7 @@ public class BankAccount {
         this.accountNumber = accountNumber;
         this.accountHolder = accountHolder;
         this.balance = 0.00;
-    }
+    } // 2 construtores - sobrecarga
 
     public int getAccountNumber() {
         return this.accountNumber;
