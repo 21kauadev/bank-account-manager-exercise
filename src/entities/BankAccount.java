@@ -2,7 +2,7 @@ package entities;
 
 public class BankAccount {
 
-    public static final double tax = 5.00;
+    public static final double TAX = 5.00;
 
     private int accountNumber;
     public String accountHolder;
@@ -47,7 +47,7 @@ public class BankAccount {
     }
 
     public void makeWithdrawal(double quantity) {
-        this.balance = (this.balance - quantity) - tax;
+        this.balance = (this.balance - quantity) - TAX;
     }
 
 }
